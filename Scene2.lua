@@ -55,7 +55,7 @@ function scene:show( event )
  
     elseif ( phase == "did" ) then
         -- Code here runs when the scene is entirely on screen
-        timer.performWithDelay( 3000, showScene1 )
+        timer.performWithDelay( 2000, showScene1 )
  
     end
 end
